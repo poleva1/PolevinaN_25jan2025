@@ -1,0 +1,152 @@
+{
+	"id": "23d06baf-4666-42fc-a21a-30e37a3909ef",
+	"name": "Финальное тестовое Altaivita",
+	"timestamp": "2025-02-04T10:06:44.456Z",
+	"collection_id": "36365741-d3cef1b4-b4e0-464f-bec7-0cac7ab63efd",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-04T10:06:43.175Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "231350b3-2edb-4272-91c3-210e20c9312c",
+			"name": "Поиск товара",
+			"url": "https://altaivita.ru/engine/ajax/ajax_ecommerce/ajax_ecommerce.php",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "81d8e514-9a18-4c15-8eba-b35eb97b3be2",
+			"name": "Добавление товара",
+			"url": "https://altaivita.ru/engine/ajax/ajax_ecommerce/ajax_ecommerce.php",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "551e18b2-cd26-4917-b36d-9fba25a00213",
+			"name": "Увеличение кол-ва товара",
+			"url": "https://altaivita.ru/engine/cart/action_with_basket_on_cart_page.php",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				87
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "070a8c3c-5a61-4df5-966e-ecd1edfaee99",
+			"name": "Удаление товара",
+			"url": "https://altaivita.ru/engine/cart/delete_products_from_cart_preview.php",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body is correct": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 151,
+	"collection": {
+		"requests": [
+			{
+				"id": "231350b3-2edb-4272-91c3-210e20c9312c",
+				"method": "GET"
+			},
+			{
+				"id": "81d8e514-9a18-4c15-8eba-b35eb97b3be2",
+				"method": "POST"
+			},
+			{
+				"id": "551e18b2-cd26-4917-b36d-9fba25a00213",
+				"method": "POST"
+			},
+			{
+				"id": "070a8c3c-5a61-4df5-966e-ecd1edfaee99",
+				"method": "DELETE"
+			}
+		]
+	}
+}
